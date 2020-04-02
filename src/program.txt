@@ -1,0 +1,7 @@
+fn diff_numbers(x, y) {
+   if (x > y) {return x - y} else {return y - x}
+
+fn main() {
+   let result = diff_numbers(5, 4);
+   print("Result: ", result);
+}
